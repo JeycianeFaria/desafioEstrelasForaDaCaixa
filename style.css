@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    background-image: url(/imagens/ceu_estrelado.jpg);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color:#02d4d4;
+    text-align: center;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 3.5em;
+    text-shadow: 3px 3px 5px #99ff33 ;
+}
+
+ main{
+    display: flex;
+    justify-content: space-between;
+    max-height: 500px;
+    margin: 20px;
+} 
+
+#container {
+    width: 95%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+    background: url(/imagens/rick_and_morty1.png) bottom  no-repeat;
+    background-position: center bottom; 
+    background-size: 420px;
+}
+
+#esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+#direita {
+    display: flex;
+    flex-direction: column;
+}
+
+#esquerda > .personagens{
+    box-shadow: -2px 2px 5px #d7dad7;
+}
+
+#direita > .personagens{
+    box-shadow: 2px 2px 5px #d7dad7;
+}
+
+.personagens{
+    border: 1px solid #252825;
+    width: 200px;
+    height: 210px;
+    margin: 15px;
+    color: white;
+    background-color: #0c0d0c;
+    border-radius: 10px;
+    
+}
+
+.personagens > img {
+    border: none;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto; 
+    border-radius: 5px;
+}
+
+.personagens > h3 {
+    text-align: center;
+}
+
+.personagens > p {
+    text-align: center;
+    text-transform: uppercase;
+}
