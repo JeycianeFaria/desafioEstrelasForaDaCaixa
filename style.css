@@ -28,7 +28,8 @@ header h1{
     display: flex;
     justify-content: space-between;
     max-height: 500px;
-    margin: 20px;
+    margin: 0;
+    border: 1px solid red;
 } 
 
 #container {
@@ -61,13 +62,12 @@ header h1{
 
 .personagens{
     border: 1px solid #252825;
-    width: 200px;
-    height: 210px;
-    margin: 15px;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
     color: white;
     background-color: #0c0d0c;
     border-radius: 10px;
-    
 }
 
 .personagens > img {
@@ -77,10 +77,6 @@ header h1{
     display: block;
     margin: 10px auto; 
     border-radius: 5px;
-}
-
-.personagens > h3 {
-    text-align: center;
 }
 
 .personagens > p {
