@@ -9,7 +9,7 @@ gerarIdsAleatorio = (numeroIds) => {
     return ids
 }
 
-//Conectando a API à nossa página
+//Conectando a API à página
 pegarPersonagem = () => {
     let idsAleatorio = gerarIdsAleatorio(4);
     
