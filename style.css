@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url(/imagens/ceu_estrelado.jpg);
+    background-image: url(./imagens/ceu_estrelado.jpg);
     display: flex;
     font-family: 'Viaoda Libre', cursive;
     height: 100%;
@@ -31,7 +31,7 @@ main{
 } 
 
 #container {
-    background: url(/imagens/rick_and_morty1.png) bottom  no-repeat;
+    background: url(./imagens/rick_and_morty1.png) bottom  no-repeat;
     background-position: center bottom; 
     background-size: 420px;
     height: 600px;
